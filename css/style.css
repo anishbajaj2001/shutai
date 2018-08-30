@@ -65,4 +65,12 @@ footer {
   color: #f7f7f7;
   text-align: center; }
 
-/*# sourceMappingURL=style.css.map */
+#graph {
+  height: 300px;
+  width: 55%;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px; }

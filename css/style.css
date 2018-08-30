@@ -1,0 +1,68 @@
+html {
+  font-family: Europa;
+  font-weight: 800; }
+
+body {
+  color: #fff;
+  margin: 0; }
+
+section {
+  width: 100%; }
+  section#landing {
+    height: 80vh;
+    background: #477cd4;
+    margin: 0;
+    position: relative; }
+    section#landing div.container div.row div.column {
+      text-align: center;
+      padding-top: 1%;
+      position: absolute;
+      margin: auto;
+      top: 35vh;
+      right: 0;
+      bottom: 0;
+      left: 0; }
+      section#landing div.container div.row div.column h1 {
+        margin-bottom: 3px;
+        font-weight: 300; }
+        section#landing div.container div.row div.column h1 span {
+          letter-spacing: 0.5px; }
+      section#landing div.container div.row div.column p {
+        font-size: 120%;
+        margin-top: 0; }
+  section#problem {
+    height: auto;
+    padding: 5% 0;
+    display: table; }
+    section#problem div.container div.row {
+      display: table;
+      margin: 0 auto; }
+      section#problem div.container div.row div.columns {
+        margin-right: 0;
+        display: table-cell;
+        vertical-align: middle; }
+        section#problem div.container div.row div.columns div.box {
+          padding: 20px;
+          height: 200px !important; }
+          section#problem div.container div.row div.columns div.box div.content {
+            margin-top: 5%;
+            right: 0;
+            bottom: 0;
+            left: 0; }
+            section#problem div.container div.row div.columns div.box div.content h2 {
+              font-weight: 400; }
+            section#problem div.container div.row div.columns div.box div.content h1 {
+              font-weight: 400; }
+        section#problem div.container div.row div.columns div.solution {
+          background: #f4f4f4;
+          color: #222; }
+
+footer {
+  font-size: 1.2rem;
+  padding: 2rem 0;
+  line-height: 2rem;
+  background: #477cd4;
+  color: #f7f7f7;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

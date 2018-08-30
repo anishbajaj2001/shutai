@@ -13,27 +13,28 @@ section {
     background: #477cd4;
     margin: 0;
     position: relative; }
-    section#landing div.container div.row div.column {
-      text-align: center;
+    section#landing div.container div.row div.columns {
       padding-top: 1%;
       position: absolute;
       margin: auto;
       top: 35vh;
-      right: 0;
-      bottom: 0;
       left: 0; }
-      section#landing div.container div.row div.column h1 {
+      section#landing div.container div.row div.columns h1 {
         margin-bottom: 3px;
         font-weight: 300; }
-        section#landing div.container div.row div.column h1 span {
+        section#landing div.container div.row div.columns h1 span {
           letter-spacing: 0.5px; }
-      section#landing div.container div.row div.column p {
+      section#landing div.container div.row div.columns p {
         font-size: 120%;
         margin-top: 0; }
   section#problem {
     height: auto;
     padding: 5% 0;
     display: table; }
+    section#problem div.container h2 {
+      color: #000;
+      font-weight: 600;
+      margin-bottom: 5rem; }
     section#problem div.container div.row {
       display: table;
       margin: 0 auto; }
@@ -41,6 +42,8 @@ section {
         margin-right: 0;
         display: table-cell;
         vertical-align: middle; }
+        section#problem div.container div.row div.columns iframe {
+          height: 80vh; }
         section#problem div.container div.row div.columns div.box {
           padding: 20px;
           height: 200px !important; }
@@ -56,21 +59,57 @@ section {
         section#problem div.container div.row div.columns div.solution {
           background: #f4f4f4;
           color: #222; }
+  section#members {
+    height: auto;
+    padding: 5% 0;
+    display: table; }
+    section#members div.container div.row {
+      display: table;
+      margin: 0 auto; }
+      section#members div.container div.row h2 {
+        color: #000;
+        font-weight: 600; }
+      section#members div.container div.row div.columns {
+        margin-right: 0;
+        display: table-cell;
+        vertical-align: middle; }
+        section#members div.container div.row div.columns ul.members {
+          padding: 0;
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 6rem; }
+          section#members div.container div.row div.columns ul.members li {
+            width: 20vw;
+            text-align: center; }
+            section#members div.container div.row div.columns ul.members li img {
+              width: 100%;
+              border-radius: 50%;
+              transform: scale(0.8);
+              transition: all 0.2s ease-in-out; }
+            section#members div.container div.row div.columns ul.members li h4 {
+              margin-bottom: 0;
+              color: #424242;
+              font-weight: 400; }
+            section#members div.container div.row div.columns ul.members li p {
+              color: #424242; }
 
 footer {
   font-size: 1.2rem;
   padding: 2rem 0;
   line-height: 2rem;
-  background: #477cd4;
+  background: #2a57a2;
   color: #f7f7f7;
   text-align: center; }
 
 #graph {
   height: 300px;
   width: 55%;
-  -ms-flex-line-pack: center;
   align-content: center;
   text-align: center;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 30px; }
+
+/*# sourceMappingURL=style.css.map */

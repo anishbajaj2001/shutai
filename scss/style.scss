@@ -11,6 +11,7 @@ body {
 section {
 
 	width: 100%;
+
 	&#landing {
 
 		height: 80vh;
@@ -22,15 +23,12 @@ section {
 
 			div.row {
 
-				div.column {
+				div.columns {
 					
-					text-align: center;
 					padding-top: 1%;
 				    position: absolute;
 					margin: auto;
 					top: 35vh;
-					right: 0;
-					bottom: 0;
 					left: 0;
 
 					h1 {
@@ -62,6 +60,12 @@ section {
 
 		div.container {
 
+			h2 {
+				color: #000;
+				font-weight: 600;
+				margin-bottom: 5rem;
+			}
+
 			div.row {
 				
 				display: table;
@@ -72,6 +76,10 @@ section {
 					margin-right: 0;
 					display: table-cell;
 					vertical-align: middle;
+
+					iframe {
+						height: 80vh;
+					}
 
 
 					div.box {
@@ -98,11 +106,69 @@ section {
 
 					}
 
-
 					div.solution {
 						background: #f4f4f4;
 						color: #222;
 					}
+				}
+			}
+		}
+	}
+
+	&#members {
+		height: auto;
+		padding: 5% 0;
+		display: table;
+
+		div.container {
+
+			div.row {
+				
+				display: table;
+				margin: 0 auto;
+
+				h2 {
+					color: #000;
+					font-weight: 600;
+				}
+
+				div.columns {
+
+					margin-right: 0;
+					display: table-cell;
+					vertical-align: middle;
+
+					ul.members {
+						padding: 0;
+					    list-style: none;
+					    display: flex;
+					    justify-content: center;
+					    align-items: center;
+					    margin-bottom: 6rem;
+
+					    li {
+					    	width: 20vw;
+					    	text-align: center;
+
+							img {
+					    		width: 100%;
+							    border-radius: 50%;
+							    transform: scale(0.8);
+							    transition: all 0.2s ease-in-out;
+					    	}
+
+					    	h4 {
+					    		margin-bottom: 0;
+					    		color: #424242;
+					    		font-weight: 400;
+					    	}
+
+					    	p {
+					    		color: #424242;
+					    	}
+					    }
+					}
+
 				}
 			}
 		}
@@ -114,7 +180,7 @@ footer {
 	font-size: 1.2rem;
     padding: 2rem 0;
     line-height: 2rem;
-    background: #477cd4;
+    background: #2a57a2;
     color: #f7f7f7;
     text-align: center;
 }

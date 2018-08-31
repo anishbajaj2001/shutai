@@ -30,21 +30,37 @@
 
 	<section id="landing">
 
+		<input id="toggle" type="checkbox">
 
+		    <!-- IMPORTANT: Any element that we want to modify when the checkbox state changes go here, being "sibling" of the checkbox element -->
+
+		    <!-- This label is tied to the checkbox, and it will contain the toggle "buttons" -->
+		    <label class="toggle-container" for="toggle">
+		        <!-- If menu is open, it will be the "X" icon, otherwise just a clickable area behind the hamburger menu icon -->
+		        <span class="button button-toggle"></span>
+		    </label>
+
+		    <!-- The nav menu -->
+		    <nav class="nav">
+		        <a class="nav-item" href="#problem">Problem</a>
+		        <a class="nav-item" href="#video">Video</a>
+		        <a class="nav-item" href="#prototype">Prototype</a>
+		        <a class="nav-item" href="#members">Members</a>
+		    </nav>
 
 		<div class="container">
 
 			<div class="row">
 
-				<div class="six columns">
+				<div class="six columns mockup">
 
-					<h1>Welcome to <span class="name">Shut<b>AI</b></span></h1>
-					<p>Reclaim your sleep.</p>
+					<img src="img/yayy.png" alt="">
 
 				</div>
 				<div class="six columns">
 
-					<img src="img/yayy.png" alt="">
+					<h1>Welcome to <span class="name"><b><span style="color: #aaa">Shut<span style="color: #4886ea">AI</b></span></span></h1>
+					<p>Reclaim your sleep.</p>
 
 				</div>
 
@@ -55,7 +71,7 @@
 	</section>
 	
 
-	<section id="problem">
+	<section id="problem" class="dark">
 
 		<div class="container">
 
@@ -89,7 +105,26 @@
 
 	</section>
 
-	<section id="problem" class="dark">
+	<section id="video">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="twelve columns">
+					<video controls>
+					  <source src="shutai.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+					</video>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<section id="prototype" class="dark">
 
 		<div class="container">
 
@@ -150,5 +185,5 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src='js/script.js'></script>
 </html>
